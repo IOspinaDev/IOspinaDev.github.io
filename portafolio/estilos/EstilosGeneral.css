@@ -1,0 +1,28 @@
+
+.ContenedorCabecera{
+    display: flex;
+    color: black;
+    justify-content: center;
+    width: 100%;
+    background-color: #ececec;
+    
+}
+.BotonesDC{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+button {
+    width: 15%;  
+    margin: 2%;   
+    padding: 0;
+    border: none;
+    border-radius: 25px;
+    display: flex; /* Asegura que el contenido del botón se pueda alinear correctamente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+img {
+    width: 10%; 
+}
